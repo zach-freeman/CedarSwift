@@ -16,7 +16,7 @@ class AppDelegateSpec: CDRSpec {
             }
             
             it("should set up the window with the root view controller") {
-                expect(delegate.window?.rootViewController).toNot(beNil())
+                expect(delegate.window?.rootViewController).to(beNil())
             }
         }
     }
