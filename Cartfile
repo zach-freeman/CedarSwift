@@ -1,0 +1,3 @@
+github "pivotal/Cedar" "master"
+github "pivotal/PivotalCoreKit" "master"
+github "Quick/Nimble"
